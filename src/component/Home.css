@@ -14,7 +14,7 @@
   justify-content: center;
   width: 100%;
   max-width: 1200px;
-  gap: 20px; /* Add gap to separate text and image */
+  gap: 20px; 
 }
 
 .h-text h1 {
@@ -68,20 +68,6 @@
   }
 }
 
-.h-image:before {
-  content: '';
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  border-radius: 50%;
-  background: linear-gradient(45deg, #f06, #f9a, #f3f);
-  z-index: -1;
-  animation: rotate-border 5s linear infinite;
-}
-
-/* Responsive Styles */
 @media (min-width: 768px) {
   .home {
     flex-direction: row;

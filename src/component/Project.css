@@ -1,12 +1,12 @@
 .projects {
   background: #f4f4f4;
-  padding: 60px 10px; /* Reduced padding */
+  padding: 60px 10px; 
 }
 
 .projects h2 {
   font-size: 2.5em;
   text-align: center;
-  margin-bottom: 30px; /* Reduced margin */
+  margin-bottom: 30px; 
   font-weight: bold;
   position: relative;
   color: #ff6347;
@@ -27,15 +27,15 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 20px; /* Reduced gap */
+  gap: 20px; 
 }
 
 .project {
   background: #fff;
-  padding: 20px; /* Reduced padding */
+  padding: 20px; 
   border-radius: 10px;
   width: 30%;
-  margin-bottom: 20px; /* Reduced margin */
+  margin-bottom: 20px; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -57,7 +57,6 @@
   line-height: 1.6;
 }
 
-/* Responsive Styles */
 @media (max-width: 1024px) {
   .project {
     width: 45%;
@@ -70,20 +69,23 @@
   }
 
   .projects {
-    padding: 40px 10px; /* Reduced padding */
+    padding: 40px 10px; 
   }
 
   .projects h2 {
     font-size: 2em;
-    margin-bottom: 20px; /* Reduced margin */
+    margin-bottom: 20px; 
   }
 }
 
 @media (max-width: 480px) {
   .project {
-    padding: 15px; /* Reduced padding */
+    padding: 15px; 
+    width: 100%;
   }
-
+  .project-list{
+    display:block;
+  }
   .projects h2 {
     font-size: 1.8em;
   }

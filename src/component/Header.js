@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Header.css'; // Import the CSS file
+import './Header.css'; 
+import { PiStudentThin } from "react-icons/pi";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>My Portfolio</h1>
+     <div style={{display:'flex'}}><PiStudentThin style={{marginLeft:'10px',marginTop:'1px',fontSize:'60px',color:'orange'}} /> <h1>Portfolio</h1></div>  
       <button
         className="menu-toggle"
         aria-label="Toggle Menu"
@@ -24,6 +25,7 @@ const Header = () => {
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href='#skills'>Skills</a></li>
         </ul>
       </nav>
     </header>

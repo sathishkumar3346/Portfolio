@@ -18,7 +18,7 @@ function Skills() {
     <section id="skills" className="skills">
       <h2>My Skillset</h2>
       <div className="skills-container">
-        {/* Front-End Development */}
+        
         <div className="skills-section">
           <h3>Front-End Development</h3>
           <div className="skills-list">
